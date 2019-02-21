@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550230542389' stop='1550230555375'>
+    <name>Login into QA Click</name>
+    <title>Login into QA Click</title>
+    <test-cases>
+        <test-case start='1550230542395' status='passed' stop='1550230555355'>
+            <name>Fill the Onboarding Form</name>
+            <title>Fill the Onboarding Form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='99f5c48b-fcf9-456a-b962-374a37bd1dc5-attachment.png' type='image/png' size='22084'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550230555360' status='pending' stop='1550230555366'>
+            <name>Validation of error message</name>
+            <title>Validation of error message</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

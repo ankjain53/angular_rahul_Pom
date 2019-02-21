@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550233135493' stop='1550233189113'>
+    <name>Login into Shopping page</name>
+    <title>Login into Shopping page</title>
+    <test-cases>
+        <test-case start='1550233135493' status='passed' stop='1550233146338'>
+            <name>Purchase Product from shoping website</name>
+            <title>Purchase Product from shoping website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6a675170-a73f-4716-9e76-c39ff81ea374-attachment.png' type='image/png' size='64437'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550233146339' status='passed' stop='1550233149330'>
+            <name>Checkout the Product from the list</name>
+            <title>Checkout the Product from the list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5644b155-2876-460f-9750-136fd7e7dc80-attachment.png' type='image/png' size='64437'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550233149334' status='passed' stop='1550233150964'>
+            <name>Validation of Total Amount of item in cart</name>
+            <title>Validation of Total Amount of item in cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5015e839-1316-4bb9-8034-772a8646a5bc-attachment.png' type='image/png' size='64437'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550233150965' status='failed' stop='1550233189110'>
+            <name>Remove Product from the Cart</name>
+            <title>Remove Product from the Cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a11c8c32-d62b-48e4-80b0-d73693e8a2cb-attachment.png' type='image/png' size='20910'/>
+            </attachments>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at ontimeout (timers.js:498:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:290:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

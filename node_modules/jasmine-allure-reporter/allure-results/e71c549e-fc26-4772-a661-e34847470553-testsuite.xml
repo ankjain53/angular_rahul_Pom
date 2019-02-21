@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550227195690' stop='1550227290805'>
+    <name>Login into Shopping page</name>
+    <title>Login into Shopping page</title>
+    <test-cases>
+        <test-case start='1550227195690' status='failed' stop='1550227244281'>
+            <name>Purchase Product from shoping website</name>
+            <title>Purchase Product from shoping website</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b7a694a0-6c9f-45db-891f-4ef05128eb04-attachment.png' type='image/png' size='64437'/>
+            </attachments>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\ankur.jain\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at ontimeout (timers.js:498:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:290:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1550227244281' status='passed' stop='1550227264818'>
+            <name>Checkout the Product from the list</name>
+            <title>Checkout the Product from the list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='33f97562-5123-4658-80a5-88c1fb2c1268-attachment.png' type='image/png' size='64437'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550227264819' status='passed' stop='1550227266755'>
+            <name>Validation of Total Amount of item in cart</name>
+            <title>Validation of Total Amount of item in cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d872bcc3-8152-4232-9afc-99d3583403ba-attachment.png' type='image/png' size='64437'/>
+            </attachments>
+        </test-case>
+        <test-case start='1550227266756' status='passed' stop='1550227290805'>
+            <name>Remove Product from the Cart</name>
+            <title>Remove Product from the Cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='960e5252-108d-4c36-863e-d7a3076ce616-attachment.png' type='image/png' size='20910'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
